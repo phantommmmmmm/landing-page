@@ -1,0 +1,109 @@
+@import 'colour';
+
+footer{
+    background-color: $first;
+    height: 200px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 2rem;
+
+    >div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+
+        >h1{
+            font: 700 2rem ;
+            text-transform:uppercase ;
+            color: $third;
+        }
+
+        >p{
+            font:500 1rem;
+
+        }
+
+        >h5{
+            font:500 2rem;
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        >div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            a{
+                color: $dark;
+                font:900 1rem;
+
+                &:hover{
+                    color: $third;
+                }
+
+            }
+        }
+    }
+}
+
+
+// /* Media query for devices with a max width of 768px (tablet and mobile view) */
+// @media (max-width: 768px) {
+//     footer {
+//         grid-template-columns: 1fr; /* Stack the columns vertically on smaller screens */
+//         height: auto; /* Allow the height to adjust dynamically based on content */
+//         padding: 1.5rem;
+
+//         > div {
+//             align-items: center; /* Center the content in mobile view */
+            
+//             > h1 {
+//                 font-size: 1.5rem; /* Adjust the font size for smaller screens */
+//             }
+
+//             > h5 {
+//                 font-size: 1.5rem;
+//             }
+
+//             > p {
+//                 font-size: 0.9rem; /* Smaller text size for mobile */
+//             }
+
+//             > div {
+//                 a {
+//                     font-size: 0.9rem; /* Adjust the font size for links */
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// /* Media query for devices with a max width of 480px (small mobile view) */
+// @media (max-width: 480px) {
+//     footer {
+//         padding: 1rem;
+
+//         > div {
+//             > h1 {
+//                 font-size: 1.25rem; /* Further reduced for smaller devices */
+//             }
+
+//             > h5 {
+//                 font-size: 1.25rem;
+//             }
+
+//             > p {
+//                 font-size: 0.8rem;
+//             }
+
+//             > div {
+//                 a {
+//                     font-size: 0.8rem;
+//                 }
+//             }
+//         }
+//     }
+// }
