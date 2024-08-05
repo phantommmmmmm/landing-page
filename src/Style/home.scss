@@ -223,32 +223,32 @@
         }
     }
     
-    /* Media query for devices with a max width of 480px (small mobile view) */
-    @media (max-width: 480px) {
-        .home {
-            > main {
-                padding: 1rem;
+    // /* Media query for devices with a max width of 480px (small mobile view) */
+    // @media (max-width: 480px) {
+    //     .home {
+    //         > main {
+    //             padding: 1rem;
     
-                > h1 {
-                    font-size: 2.5rem;
-                }
+    //             > h1 {
+    //                 font-size: 2.5rem;
+    //             }
     
-                > p {
-                    font-size: 0.8rem;
-                }
-            }
-        }
+    //             > p {
+    //                 font-size: 0.8rem;
+    //             }
+    //         }
+    //     }
     
-        .home2 > img {
-            width: 70%;
-        }
+    //     .home2 > img {
+    //         width: 70%;
+    //     }
     
-        .home3 > div, .home4 > div {
-            padding: 1rem;
-            border-radius: 0;
-        }
+    //     .home3 > div, .home4 > div {
+    //         padding: 1rem;
+    //         border-radius: 0;
+    //     }
     
-        .home4 > div > h1 {
-            font-size: 1rem;
-        }
-    }
+    //     .home4 > div > h1 {
+    //         font-size: 1rem;
+    //     }
+    // }
